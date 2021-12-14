@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="image-and-text">
                   <img src={HEADER_BIG_IMG} alt="" />
                   <div className="text text-center text-md-start col-10 col-md-8 col-lg-5 ms-lg-auto">
-                    <h2>The goat's business is none of the sheep's concern</h2>
+                    <h2>The Rhino,s business is none of the sheep's concern</h2>
                     <h2 className="text-center text-md-end"> -Edna ferber</h2>
                   </div>
                 </div>

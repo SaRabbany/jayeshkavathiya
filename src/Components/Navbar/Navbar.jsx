@@ -30,11 +30,9 @@ const Navbar = () => {
             <div className="col-2 order-1 d-lg-none">
               <InlineIcon onClick={() => setIsNavbarShown(!navbarShown)} className="display-1" icon="clarity:bars-line" />
             </div>
-            <div className="col-lg-4 text-center  order-0 navbar-logo">
-              <img src={Navbar_LOGO} alt="" />
-            </div>
+            <div className="col-lg-4 text-center  order-0 navbar-logo">{/* <img src={Navbar_LOGO} alt="" /> */}</div>
             <div className="col-lg-8 order-2 col-10 navbar-title">
-              <h1 className="display-1 text-end mb-0 font-alfa-slab">GOAT COLLECTION</h1>
+              <h1 className="display-1 text-end mb-0 font-alfa-slab"> RHINO COLLECTION</h1>
               <p className="font-alfa-slab text-end">Exclusively on Solana</p>
             </div>
           </div>
@@ -44,12 +42,12 @@ const Navbar = () => {
               <ul className="navbar-items">
                 <li className="navbar-item">
                   <a href="#welcome" className="navbar-link" to="/">
-                    OverView
+                    Overview
                   </a>
                 </li>
                 <li className="navbar-item">
                   <a href="#GoatBarn" className="navbar-link" to="/">
-                    ARTWORK
+                    Art Work
                   </a>
                 </li>
                 <li className="navbar-item">

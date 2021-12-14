@@ -76,6 +76,9 @@
             width: 760px;
             display: block;
             margin: auto;
+            p{
+                size: 18px;
+            }
             @media screen and (max-width:570px) {
                     
                 width: 90vw;

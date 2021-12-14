@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container">
           <div className="d-flex py-4 align-items-center justify-content-between">
             <div className="copy-right">
-              <p className="mb-0">Copyright © 2021 G.O.A.T. NFT Collection</p>
+              <p className="mb-0">Copyright © 2021 Rhino NFT Collection</p>
             </div>
             <div className="icons d-flex">
               <div className="icon me-5">
