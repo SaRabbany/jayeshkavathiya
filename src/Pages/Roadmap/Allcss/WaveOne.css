@@ -1,0 +1,123 @@
+.roadmap_wave1 {
+    margin-bottom: 133px;
+}
+.roadmap_wave1 .roadmapWave1_title {
+    position: relative;
+    display: inline-block;
+    font-family: Alfa Slab One,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    color: #fff;
+    margin: 0 0 40px 73px;
+}
+.roadmap_wave1 .roadmapWave1_title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    background: #323133;
+    height: 5px;
+    width: 100vw;
+}
+.roadmap_wave1 .roadmapWave1_title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -7px;
+    right: -34px;
+    transform: rotate(-45deg);
+    background: #323133;
+    width: 20px;
+    height: 20px;
+}
+.roadmap_wave1 .roadmapWave1_contentBlock {
+    max-width: 55%;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+.roadmap_wave1 .roadmapWave1_contentBlock .roadmapWave1_subTitle {
+    margin: 0 0 4px;
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+    font-weight: 400;
+}
+.roadmap_wave1 .roadmapWave1_contentBlock .roadmapWave1_text {
+    margin: 0;
+    font-family: Sanchez,sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* responsive code */
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    .roadmap_wave1 .roadmapWave1_title {
+        font-size: 42px;
+    }
+    .roadmap_wave1 .roadmapWave1_contentBlock {
+        max-width: 100%;
+    }
+    .roadmap_wave1 .roadmapWave1_contentBlock .roadmapWave1_subTitle {
+        font-size: 20px;
+    }
+    .roadmap_wave1 .roadmapWave1_contentBlock .roadmapWave1_text {
+        font-size: 18px;
+        line-height: 140%;
+    }    
+}
+
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .roadmap_wave1 {
+        padding-top: 20px;
+    }
+    .roadmap_wave1 .roadmapWave1_title {
+        font-size: 32px;
+    }
+    .roadmap_wave1 .roadmapWave1_contentBlock {
+        max-width: 100%;
+    }
+    .roadmap_wave1 .roadmapWave1_contentBlock .roadmapWave1_subTitle {
+        font-size: 16px;
+    }
+    .roadmap_wave1 .roadmapWave1_contentBlock .roadmapWave1_text {
+        font-size: 14px;
+        line-height: 140%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

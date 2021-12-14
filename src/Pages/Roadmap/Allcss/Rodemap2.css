@@ -1,0 +1,63 @@
+.roadmap2_area {
+    margin-top: 90px;
+    padding-bottom: 124px;
+}
+.roadmap2_area .roadmap2_title {
+    margin: 0 0 60px;
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 68px;
+    line-height: 93px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.roadmap2_area .roadmap2_text {
+    max-width: 920px;
+    margin: 0 auto;
+    font-family: Sanchez,sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* responsive code */
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    .roadmap2_area .roadmap2_title {
+        font-size: 52px;
+        line-height: 140%;
+    }
+    .roadmap2_area .roadmap2_text {
+        font-size: 20px;
+    line-height: 150%;
+    }
+}
+
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .roadmap2_area .roadmap2_title {
+        font-size: 34px;
+        margin-bottom: 40px;
+        line-height: 140%;
+    }
+    .roadmap2_area .roadmap2_text {
+        font-size: 18px;
+        line-height: 150%;
+    }
+}
+
+
+
+
+
+
+

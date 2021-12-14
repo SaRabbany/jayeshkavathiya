@@ -1,0 +1,19 @@
+$primary:#3f37c9;
+$secondary:#155d27;
+$black:#112B40;
+$tertiary:#96613d ;
+$white:#ffffff;
+$homepage-gradient:linear-gradient(177.14deg, #3354CB 0%, rgba(34, 162, 190, 0.742855) 29.13%, #2CBF43 62.66%, #3FCB33 97.62%);
+
+.font-alfa-slab{
+    font-family: 'Alfa Slab One', cursive;
+}
+.theme-btn{
+    background:$black;
+    color:$white;
+    border: none;
+}
+
+.container{
+    max-width: 900px;
+}

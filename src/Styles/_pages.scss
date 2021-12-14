@@ -1,0 +1,143 @@
+@import "util";
+/* homepage css here */
+#homepage{
+    background: $homepage-gradient;
+    color:$white;
+}
+#header {
+    .navbar-below {
+        .image-and-text-wrapper {
+            border-bottom: 1px solid #000;
+            position: relative;
+            .image-and-text {
+                padding-top: 2rem;
+
+                img {
+                    max-width: 650px;
+                    margin: auto;
+                    display: block;
+                    width: 200%;
+                }
+                .text {
+                    position: absolute;
+                    bottom: 10%;
+                    right: 12%;
+                    * {
+                        @extend .font-alfa-slab;
+                    }
+                }
+
+                @media screen and (max-width:570px) {
+                    img{
+                        max-width: 350px;
+                    }
+                }
+            }
+        }
+    }
+}
+#welcome {
+    position: relative;
+    padding: 4rem 0 0 0;
+    border-bottom: 1px solid #000;
+    z-index: 1;
+    .welcome-text-and-image {
+        .wrapper {
+            .image {
+                img {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 600px;
+                    z-index: -100;
+                }
+            }
+            .welcome-text-and-desc {
+                padding: 4rem 0;
+            }
+
+            @media screen and (max-width:570px) {
+                    
+                .image{
+                    img{
+                        width: 300px;
+                    }
+                }
+                }
+        }
+    }
+}
+
+#GoatBarn {
+    padding: 4rem 0 1rem 0;
+    border-bottom: 1px solid #000;
+    .goat-barn-image {
+        img {
+            width: 760px;
+            display: block;
+            margin: auto;
+            @media screen and (max-width:570px) {
+                    
+                width: 90vw;
+                }
+        }
+    }
+
+    .door-image {
+        max-width: 300px;
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        margin-bottom: 2rem;
+        img {
+            width: 100%;
+            transition: 0.3s;
+            &.opened_img {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                opacity: 0;
+            }
+        }
+
+        &:hover {
+            img {
+                &.opened_img {
+                    opacity: 1;
+                }
+                &.closed_img{
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+#FAQs{
+    padding: 4rem 0;
+    border-bottom: 1px solid #000;
+}
+
+#goatTeam{
+    padding: 4rem 0;
+}
+
+#rhino-facts-header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("https://www.bing.com/th?id=ALSTU0B695DA0158ABB06B15BE4CD8946FF30FC701AD1DFBD460A79A8AAFC4C74E606&w=472&h=280&rs=2&o=6&oif=webp&pid=SANGAM") no-repeat center / cover rgba(0, 0, 0, 0.466);
+    background-blend-mode: soft-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:$white;
+}
+
+#rhino-details{
+
+    .details_list{
+        li{
+            font-size: 1.2rem;
+        }
+    }
+}

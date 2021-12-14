@@ -1,0 +1,181 @@
+.roadmap_header {
+    padding-top: 80px;
+    margin-bottom: 150px;
+}
+.roadmap_header .roadmapInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.roadmap_header .roadmapInner .roadmapLink {
+    font-family: "Alfa Slab One",sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    transition: opacity .3s;
+}
+.roadmap_header .roadmapInner .roadmapLink::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -60px;
+    width: 60px;
+    height: 106px;
+    background: url(../../../images/icon-arrow.svg) center/contain no-repeat;
+}
+.roadmap_header .roadmapInner .roadmapTitle {
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 72px;
+    color: #fff;
+    text-align: right;
+    margin: 0;
+}
+.roadmap_header .roadmapInner .roadmapTitle .small {
+    font-family: Alfa Slab One,sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    display: inline-block;
+    margin-top: 55px;
+    transform: translateY(-50px);
+}
+.roadmap_header .roadmapInner .roadmapLogo_wrapper .roadmapLogo {
+    width: 212px;
+    height: 178px;
+    background: url(../../../images/logo-2.png) center/contain no-repeat;
+}
+
+
+
+
+
+
+
+
+/* responsive code */
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    .roadmap_header {
+        padding-top: 140px;
+    }
+    .container {
+        max-width: 760px;
+    }
+    .roadmap_header .roadmapInner {
+        flex-wrap: wrap;
+    }
+    .roadmap_header .roadmapInner .roadmapLink {
+        padding-left: 60px;
+        font-size: 24.4px;
+    }
+    .roadmap_header .roadmapInner .roadmapLink::before {
+        left: 0;
+    }
+    .roadmap_header .roadmapInner .roadmapTitle {
+        font-size: 62px;
+        line-height: 150%;
+        position: relative;
+    }
+    .roadmap_header .roadmapInner .roadmapTitle .small {
+        font-family: Alfa Slab One,sans-serif;
+        font-size: 24.3px;
+        line-height: 33px;
+        display: inline-block;
+        margin-top: 30px;
+        transform: translateY(-50px);
+    }
+    .roadmap_header .roadmapInner .roadmapLogo_wrapper  {
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+    }
+    .roadmap_header .roadmapInner .roadmapLogo_wrapper .roadmapLogo {
+        width: 150px;
+        height: 140px;
+    }
+}
+
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .roadmap_header {
+        padding-top: 140px;
+    }
+    .roadmap_header .roadmapInner {
+        flex-wrap: wrap;
+    }
+    .roadmap_header .roadmapInner .roadmapLink {
+        font-size: 18px;
+        line-height: 140%;
+        padding-left: 40px;
+    }
+    .roadmap_header .roadmapInner .roadmapLink::before {
+        width: 40px;
+        left: 0;
+    }
+    .roadmap_header .roadmapInner .roadmapTitle {
+        font-size: 48px;
+        padding-top: 35px;
+    }
+    .roadmap_header .roadmapInner .roadmapTitle .small {
+        font-size: 18px;
+        line-height: 140%;
+        transform: translateY(-30px);
+        margin-top: 35px;
+    }
+    .roadmap_header .roadmapInner .roadmapLogo_wrapper {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+    .roadmap_header .roadmapInner .roadmapLogo_wrapper .roadmapLogo {
+        width: 150px;
+        height: 140px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
